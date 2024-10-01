@@ -1,0 +1,41 @@
+.header {
+    max-height: 124px;
+    background-color: #000000;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+
+            .nav-item {
+                height: fit-content;
+
+                .nav-link {
+                    font-family: "Nunito", sans-serif;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: #cdcdcd;
+                    font-weight: 500;
+                }
+
+            }
+        }
+    }
+}

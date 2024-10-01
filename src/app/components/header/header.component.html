@@ -1,0 +1,14 @@
+<header class="header">
+    <div class="logo">
+        <img ngSrc="./assets/logoNameDark.jpg" width="194" height="50" priority>
+    </div>
+    <div class="navigation">
+        <ul class="nav">
+            @for (item of navItems; track $index) {
+            <li class="nav-item">
+                <a [routerLink]="item.routerLink" routerLinkActive="active" class="nav-link">{{ item.label }}</a>
+            </li>
+            }
+        </ul>
+    </div>
+</header>
