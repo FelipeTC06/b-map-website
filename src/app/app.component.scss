@@ -2,6 +2,14 @@
     height: 124px;
 }
 
+@media (min-width: 560px) {
+    .header {
+      height: 86px;
+    }
+  }
+  
+
 .body-all {
     height: calc(100% - 124px);
 }
+
